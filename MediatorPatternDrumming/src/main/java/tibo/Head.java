@@ -40,7 +40,7 @@ public class Head {
     public void play(Song song){
         boolean songFinished = false;
         int i = song.getLength();
-        System.out.println(String.format("Starting to play '%s' "+ song.getTitle()));
+        System.out.println(String.format("Starting to play '%s' ", song.getTitle()));
         while(!songFinished && soundsGood){
             mediator.sendKick();
             mediator.sendHit();

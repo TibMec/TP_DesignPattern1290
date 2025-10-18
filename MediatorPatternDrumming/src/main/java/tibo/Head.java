@@ -1,35 +1,24 @@
 package tibo;
 
 public class Head {
-//    % = sans mediateur
-//    private Hand hand;
-//    private Leg leg;
 
     private Song song;
     private boolean soundsGood = true;
     private Mediator mediator;
 
+
     public Head() {
     }
-
-//  %  public Head(Hand hand, Leg leg, Song song, boolean soundsGood, Mediator mediator) {
-//        this.hand = hand;
-//        this.leg = leg;
-//        this.song = song;
-//        this.soundsGood = soundsGood;
-//        this.mediator = mediator;
-//    }
 
     public boolean hear(){
         return soundsGood;
     }
+
     public void sendKick(){
-//    %    leg.kick();
         mediator.sendKick();
 
     }
     public void sendHit(){
-//    %    hand.hit();
         mediator.sendHit();
     }
 

@@ -2,9 +2,12 @@
 
 ## Illustré avec l'exemple d'un joueur de batterie
 
-### Pourquoi il existe, description
+### Pourquoi il existe
 
-Le patron médiateur existe pour solutionner des projets où beaucoup de composants sont interdépendants, ce qui peut rendre le code confus. Changer une méthode d'un composant qui en implique deux à trois autres peux nécessiter d'aller fouiller dans ces autres classes pour les modifier, ce qui complexifie toute modification ultérieure. Ajouter un composant dans ce modèle peut devenir inutilement ardu.
+Dans des projets où beaucoup de composants sont interdépendants,  le code peut vite devenir confus. Un couplage trop fort engendre des modifications fastidieuses. Le médiator permet de solutionner tout ça en simplifiant cette collaboration inter-composants.
+
+### Description
+Prenons des composants fortement couplés. Si une méthode de l'un d'entre eux implique de commander à deux ou trois autres composants d'agir, cela peut nécessiter d'aller fouiller dans ces autres classes pour les modifier, ce qui complexifie toute modification ultérieure. Ajouter un composant dans ce modèle peut devenir inutilement ardu.
 
 En proposant une classe médiatrice qui centralise les transmissions de tous les composants interdépendants, on permet une régulation efficace du traffic des méthodes. Un composant n'a plus à se soucier de gérer tous les composants affectés par une de ses méthodes, il envoie juste sa requête au Médiateur qui passera le message aux concernés. La dépendance s'en trouve allégée et peut être facilement modifiée au sein du médiateur.
 

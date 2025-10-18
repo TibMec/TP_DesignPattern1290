@@ -8,10 +8,12 @@
         <option value="$PROJECT_DIR$/BridgePattern/pom.xml" />
         <option value="$PROJECT_DIR$/MediatorPatternBrigadier/pom.xml" />
         <option value="$PROJECT_DIR$/ExempleBrigadier2/pom.xml" />
+        <option value="$PROJECT_DIR$/MediatorPatternCorps/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/BridgePattern/pom.xml" />
         <option value="$PROJECT_DIR$/MediatorPatternBrigadier/pom.xml" />
       </set>
     </option>

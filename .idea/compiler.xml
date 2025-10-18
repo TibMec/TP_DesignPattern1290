@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ExempleBrigadier2" />
-        <module name="BridgePattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BridgePattern" target="24" />
       <module name="MediatorPatternAvions" target="24" />
       <module name="MediatorPatternBrigadier" target="24" />
+      <module name="MediatorPatternDrumming" target="24" />
     </bytecodeTargetLevel>
   </component>
 </project>

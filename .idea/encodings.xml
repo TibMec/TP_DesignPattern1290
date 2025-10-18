@@ -3,11 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/BridgePattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BridgePattern/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ExempleBrigadier2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ExempleBrigadier2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MediatorPatternAvions/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MediatorPatternAvions/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MediatorPatternBrigadier/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MediatorPatternBrigadier/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MediatorPatternDrumming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MediatorPatternDrumming/src/main/resources" charset="UTF-8" />
   </component>
 </project>
